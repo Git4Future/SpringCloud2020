@@ -1,0 +1,8 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: zk-consumer-payment
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
