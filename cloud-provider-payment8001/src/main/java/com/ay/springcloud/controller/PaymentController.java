@@ -62,4 +62,9 @@ public class PaymentController {
         }
         return intances;
     }
+
+    @GetMapping(value = "/payment/lb")
+    public String getLb(){
+        return serverPort;
+    }
 }
